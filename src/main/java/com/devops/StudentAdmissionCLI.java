@@ -12,10 +12,15 @@ public class StudentAdmissionCLI {
 
         System.out.print("Enter Student Age: ");
         int age = scanner.nextInt();
+
+        System.out.print("Enter Class: ");
+        int grade = scanner.nextInt();
         
         System.out.println("\nStudent Admission Details:");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
+        System.out.println("Grade: " + grade);
+        
         
         scanner.close();
     }
