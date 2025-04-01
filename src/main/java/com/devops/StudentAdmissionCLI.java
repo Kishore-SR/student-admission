@@ -15,11 +15,15 @@ public class StudentAdmissionCLI {
 
         System.out.print("Enter Class: ");
         int grade = scanner.nextInt();
+
+        System.out.print("Enter Percentage: ");
+        float per = scanner.nextFloat();
         
         System.out.println("\nStudent Admission Details:");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Grade: " + grade);
+        System.out.println("Percentage: " + per + "%");
         
         
         scanner.close();
